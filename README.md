@@ -3,6 +3,7 @@
 ## Comandos inicialización
 
 - cd web
+- git clone https://github.com/SebastVR/tiendaapp.git
 - docker-compose build
 - docker-compose up backend
 - docker-compose exec backend python manage.py createsuperuser
