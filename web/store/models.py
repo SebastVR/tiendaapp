@@ -13,7 +13,6 @@ class Marca(models.Model):
 
 
 class Producto(models.Model):
-
     nombre = models.CharField(max_length=255)
     talla = models.CharField(max_length=1, choices=TALLAS)
     observaciones = models.TextField()
